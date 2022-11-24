@@ -1,0 +1,58 @@
+@import '../../variables.scss';
+
+// @import '../components/button';
+.profile-container {
+    // width: 70%;
+
+    .profile {
+        .card {
+            &-img-top {
+                width: 7.5rem;
+                height: 7.5rem;
+                border-radius: 50%;
+                margin: auto;
+                border: 1px solid $second;
+            }
+
+            &-title {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .card {
+        &-title {
+            color: $primary;
+        }
+    }
+
+    .ot-contro {
+        .card {
+            background: $primary;
+            transition: .4s ease-in-out;
+            color: $white;
+
+            &-title {
+                color: $white;
+            }
+
+            &-text {
+                font-size: larger;
+                margin-left: 1rem;
+            }
+
+            &:hover {
+                background: $second;
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .profile-container {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,89 @@
+@import "assets/variables";
+html {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+
+/* Default */
+.content {
+  margin-top: 55px;
+}
+
+.main-content {
+  background-color: #FFFEFE;
+}
+
+.v-autocomplete.v-select.v-input--is-focused input {
+  min-width: 0px !important;
+}
+
+/* Mobile */
+.mobile-content {
+  margin-top: 60px;
+}
+.mdi-facebook:before{
+  color: #139AF7;
+  //border-radius: 50%;
+}
+.bg-none{
+  background-color: unset !important;
+}
+.s-17{
+  font-size: 17px;
+}
+.mt_4{
+  margin-top: 3rem;
+}
+.v-expansion-panel-content__wrap {
+  padding: 0 !important;
+}
+.bg-white{
+  background-color: whitesmoke;
+}
+.v-list-group__header{
+  padding: 0px !important;
+}
+.v-application--is-ltr .v-list--dense.v-list--nav .v-list-group--no-action.v-list-group--sub-group > .v-list-group__items > .v-list-item {
+  padding-left: 40px !important;
+}
+.v-list{
+  .list-item-custom{
+    position: relative;
+  }
+}
+.custom-salary-calculator{
+  .v-input__control {
+    .v-input__slot {
+      background-color: #F2F7F7 !important;
+      box-shadow: none !important;
+      input{
+        color: #046865;
+      }
+    }
+  }
+}
+.select-custom{
+  .v-input__control{
+    .v-input__slot{
+      box-shadow: none !important;
+      background-color: #F2F7F7 !important;
+      .v-select__selection{
+        color: #046865;
+      }
+    }
+  }
+}
+#apply-loan-form{
+  .v-input__slot{
+    box-shadow: none;
+    background: linear-gradient(109.46deg, rgba(201, 201, 201, 0.8) 1.57%, rgba(196, 196, 196, 0.1) 100%);
+    backdrop-filter: blur(60px);
+    border-radius: 7px;
+  }
+  label{
+    color: white;
+  }
+  .v-btn{
+    background: #A5D9D0;
+  }
+}

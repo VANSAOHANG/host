@@ -1,0 +1,21 @@
+@import "../../variables.scss";
+a.btn-main {
+    color: $white;
+    background: $primary;
+    padding: .8rem 1.5rem;
+    transition: .4s ease-in-out;
+
+    .b-icon{
+        font-size: 1.5rem;
+        vertical-align: -0.3em;    
+        position: relative;
+        transition: .4s ease-in-out;
+        left: 0;        
+    }
+    &:hover {
+        background: $second;
+        .b-icon {
+            left: .5rem;
+        }
+    }
+}
